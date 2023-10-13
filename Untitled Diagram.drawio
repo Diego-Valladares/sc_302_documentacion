@@ -1,39 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T19:40:49.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Kav9ExAVqKc7pbf8sZYn" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T20:06:04.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="x3uXC_Bz0yVB342q8Igi" version="22.0.4" type="github">
   <diagram name="Page-1" id="mMhar8rW_IZ0MnOUz2Ne">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="v_2QjZliGucBdYu-LnCs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-1" target="v_2QjZliGucBdYu-LnCs-6">
+        <mxCell id="v_2QjZliGucBdYu-LnCs-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="25" width="800" height="695" as="geometry" />
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-1" target="v_2QjZliGucBdYu-LnCs-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="260" as="targetPoint" />
+            <mxPoint x="280" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v_2QjZliGucBdYu-LnCs-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Administracion&amp;nbsp;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="v_2QjZliGucBdYu-LnCs-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Mecanico&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="60" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="v_2QjZliGucBdYu-LnCs-2" value="Gestionar Registro de Clientes" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="v_2QjZliGucBdYu-LnCs-2" value="Gestionar Registro de Reparacion" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="190" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v_2QjZliGucBdYu-LnCs-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Sistema de Registros del Taller&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v_2QjZliGucBdYu-LnCs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-13" target="v_2QjZliGucBdYu-LnCs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Interface de Control de Registro de Reparaciones&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="v_2QjZliGucBdYu-LnCs-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-6" target="v_2QjZliGucBdYu-LnCs-8">
+        <mxCell id="v_2QjZliGucBdYu-LnCs-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-13" target="v_2QjZliGucBdYu-LnCs-15">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="470" y="300" as="sourcePoint" />
-            <mxPoint x="550" y="150" as="targetPoint" />
+            <mxPoint x="470" y="270" as="sourcePoint" />
+            <mxPoint x="540" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v_2QjZliGucBdYu-LnCs-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Informacion valida&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="557.5" y="80" width="185" height="110" as="geometry" />
+        <mxCell id="v_2QjZliGucBdYu-LnCs-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Informacion de la base de datos del taller&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="90" width="210" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="v_2QjZliGucBdYu-LnCs-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Base de datos del taller&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="320" width="180" height="120" as="geometry" />
+        <mxCell id="v_2QjZliGucBdYu-LnCs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-13" target="v_2QjZliGucBdYu-LnCs-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="390" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="v_2QjZliGucBdYu-LnCs-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-10" target="v_2QjZliGucBdYu-LnCs-6">
+        <mxCell id="v_2QjZliGucBdYu-LnCs-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Registro de reparaciones necesarias y el calculo de precio total&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="312.5" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Precios de los Repuestos y de la reparacion&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-21" target="v_2QjZliGucBdYu-LnCs-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="340" as="sourcePoint" />
+            <mxPoint x="630" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-24" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Seleccion de la Etapa Actual del proceso de reparacion&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Sistema que envie estado actual al cliente&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-26" target="v_2QjZliGucBdYu-LnCs-24">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="470" y="390" as="sourcePoint" />
             <mxPoint x="630" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Guardar Estado en el Sistema&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-24" target="v_2QjZliGucBdYu-LnCs-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="370" as="sourcePoint" />
+            <mxPoint x="630" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_2QjZliGucBdYu-LnCs-31" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_2QjZliGucBdYu-LnCs-19" target="v_2QjZliGucBdYu-LnCs-29">
+          <mxGeometry x="-0.1232" y="26" width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="370" as="sourcePoint" />
+            <mxPoint x="630" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
